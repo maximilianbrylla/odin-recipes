@@ -22,7 +22,8 @@ span {
 h1,
 h2 {
     text-align: center;
-    margin: 5px;
+    padding: 5px;
+    margin: 5px 0 5px 0;
     background-color: antiquewhite;
 }
 
@@ -32,7 +33,7 @@ h2 {
 }
 
 .recipe-image {
-    width: 390px;
+    width: 400px;
     display: block;
     margin: auto;
     border-radius: 25px;
@@ -43,6 +44,11 @@ h2 {
 .recipe-steps-list {
     background-color: aliceblue;
     padding: 5px;
+}
+
+.recipe-ingredients-list,
+.recipe-steps-list {
+    list-style-position: inside;
 }
 
 .home-link {
