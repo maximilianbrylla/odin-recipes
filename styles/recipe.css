@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    font-weight: bold;
+    color: darkblue;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 5px;
+    background-color: antiquewhite;
+}
+
+.recipe-container {
+    width: 400px;
+    margin: auto;
+}
+
+.recipe-image {
+    width: 390px;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.recipe-ingredients-list,
+.recipe-description,
+.recipe-steps-list {
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.home-link {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
