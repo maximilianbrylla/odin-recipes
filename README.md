@@ -25,10 +25,16 @@ To be able to create this project, I had to learn about:
 - Git & Github:
 ```git commit -m "This is a very good commit message"```
 
+- General CSS:
+```p {color: blue;}```
+
+- Box model:
+```div {margin: 5px;}```
+
 ## Built With
 
-![HTML](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/45px-HTML5_logo_and_wordmark.svg.png "HTML 5")
-
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Authors
 
